@@ -27,14 +27,14 @@ Let's explore some real-world use cases to better understand how AWS Lambda can 
 
 1. Automated Image Processing: Imagine you have a photo-sharing app, and users upload images every day. You can use Lambda to automatically resize or compress these images as soon as they are uploaded to S3.
 
-2. Chatbots and Virtual Assistants: Build interactive chatbots or voice-controlled virtual assistants using Lambda. These assistants can perform tasks like answering questions, fetching data, or even controlling smart home devices.
+2. Chatbots and Virtual Assistants: Build interactive or voice-controlled virtual assistants using Lambda. These assistants can perform tasks like answering questions, fetching data, or even controlling smart home devices.
 
 3. Scheduled Data Backups: Use Lambda to create scheduled tasks for backing up data from one storage location to another, ensuring data resilience and disaster recovery.
 
 4. Real-Time Analytics: Lambda can process streaming data from IoT devices, social media, or other sources, allowing you to perform real-time analytics and gain insights instantly.
 
-5. API Backends: Develop scalable API backends for web and mobile applications using Lambda. It automatically handles incoming API requests and executes the corresponding functions.
+5. API Backends: Using Lambda, develop scalable API backends for web and mobile applications. It automatically handles incoming API requests and executes the corresponding functions.
 
 # Identifying Stale EBS Snapshots
-In this example, we'll create a Lambda function that identifies EBS snapshots that are no longer associated with any active EC2 instance and deletes them to save on storage costs.
+In this example, I have created a Lambda function that identifies EBS snapshots no longer associated with any active EC2 instance and deletes them to save on storage costs.
 
