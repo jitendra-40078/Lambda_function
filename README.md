@@ -38,3 +38,9 @@ Let's explore some real-world use cases to better understand how AWS Lambda can 
 # Identifying Stale EBS Snapshots
 In this example, I have created a Lambda function that identifies EBS snapshots no longer associated with any active EC2 instance and deletes them to save on storage costs.
 
+
+
+![Screenshot (86)](https://github.com/jitendra-40078/Lambda_function/assets/77274375/30530111-a3de-4460-9f45-ee4b5fac8368)
+
+
+
