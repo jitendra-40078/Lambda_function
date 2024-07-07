@@ -35,7 +35,7 @@ Let's explore some real-world use cases to better understand how AWS Lambda can 
 
 5. API Backends: Using Lambda, develop scalable API backends for web and mobile applications. It automatically handles incoming API requests and executes the corresponding functions.
 
-# Identifying Stale EBS Snapshots
+# Identifying Stale EBS Snapshots and deleting those snapshot
 In this example, I have created a Lambda function that identifies EBS snapshots no longer associated with any active EC2 instance and deletes them to save on storage costs.
 
 
